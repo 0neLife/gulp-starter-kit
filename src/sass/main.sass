@@ -113,6 +113,7 @@ a
 
 .wrapper
 	@extend %fullScreenSize
+	@extend %gradient
 
 .flex-container
 	height: 100%
@@ -133,13 +134,14 @@ a
 ::-webkit-scrollbar-thumb
 	background: $borderColor
 
+//---------------------------RULER-----------------------------------------
 .wrapper-rule
 	position: relative
 	width: 600px
 	height: 300px
 	margin: 0px auto
 	color: #fefcff
-	background-color: #512da8
+	background-color: transparent
 	.ruler
 		position: absolute
 		top: 100px
@@ -147,6 +149,7 @@ a
 		width: 402px
 		height: 60px
 		border: 1px solid #fefcff
+		@extend %gradient
 		&:before
 			position: absolute
 			content: 'mm'
@@ -238,6 +241,7 @@ $lines-lg: 6
 	@keyframes ruler		
 		from {transform: rotate(0deg) translateX(20px) rotate(0deg)}
 		to {transform: rotate(360deg) translateX(20px) rotate(-360deg)}
+//---------------------------RULER-----------------------------------------
 
 @import "_popup.sass"
 @import "_preloader.sass"

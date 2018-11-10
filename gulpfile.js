@@ -65,8 +65,7 @@ gulp.task('copyfonts', function() {
 gulp.task('copyLibs', function() {
 	return gulp.src([
 		'src/libs/bootstrap-grid/*.css',
-		'src/libs/jquery/*.js',
-		'src/libs/fabricJS/fabric.js'
+		'src/libs/jquery/*.js'
 		])
 		.pipe(gulp.dest('dist/libs'));
 });

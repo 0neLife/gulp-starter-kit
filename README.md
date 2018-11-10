@@ -2,7 +2,7 @@
 
 #### Author: http://www.yubutsan.com.ua/
 
-<img src="https://github.com/0neLife/jquery-http-auth/blob/master/app/img/Collage-UI-components.png" width="100%">  
+<img src="https://github.com/0neLife/gulp-starter-kit/blob/master/src/img/logo.png" width="100%">  
 
 Run
 -----------

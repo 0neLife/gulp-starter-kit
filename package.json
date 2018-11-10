@@ -1,7 +1,7 @@
 {
   "name": "Gulp starter kit",
   "version": "1.0.0",
-  "description": "Gulp starter kit",
+  "description": "Basic kit for fast and easy development web pages. Author page http://www.yubutsan.com.ua/",
   "author": "Yuriy Butsan",
   "devDependencies": {
     "browser-sync": "^2.24.5",

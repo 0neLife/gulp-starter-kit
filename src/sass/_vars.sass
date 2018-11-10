@@ -1,0 +1,50 @@
+@import "bourbon"
+
+$black      : #202124
+$white      : #fff
+$whiteLight : #fefcff
+$greyLight  : #ebebeb
+$greyDark   : #c5c3c3
+$blue       : #512da8
+$darkBlue   : #311b92
+$green      : #1de9b6
+$red        : #f44336
+$darkRed    : #b71c1c
+
+$bcgPrimary      : #512da8
+$bcgSecondary    : #fff
+
+$textPrimary     : #fefcff
+$textSecondary   : #202124
+
+$borderColor     : #ebebeb
+
+$ind_S  : 10
+$ind_M  : 100
+$ind_L  : 1001
+
+%gradient
+	background: #12100E
+	background: -moz-linear-gradient(left, #12100E 0%, #2B4162 100%)
+	background: -webkit-linear-gradient(left, #12100E 0%, #2B4162 100%)
+	background: linear-gradient(to right, #12100E 0%, #2B4162 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#12100E, endColorstr=#2B4162,GradientType=1)
+
+
+%fullScreenSize
+	position: fixed
+	top: 0
+	left: 0
+	width: 100vw
+	height: 100vh
+	overflow: hidden
+
+%transformCenter
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%,-50%)
+
+%extend_before
+	position: absolute
+	content: ""
